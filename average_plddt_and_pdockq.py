@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 25 14:04:54 2025
-
-@author: atallahyuneska
-"""
 
 import os
 import pandas as pd
@@ -37,6 +32,6 @@ def process_model_statistics(root_folder, output_file):
     print(f"Results saved to {output_file}")
 
 # Example usage
-root_folder = "/mnt/csbms_scratch/Proteasome_XL"  # Change this to your actual folder path
-output_file = "/mnt/csbms_scratch/Proteasome_XL/average_plddt_and_pdockq.xlsx"         # Output file name
+root_folder = "/root/folder/path"  # Change this to your actual folder path
+output_file = "output/file/path/average_plddt_and_pdockq.xlsx"         # Output file name
 process_model_statistics(root_folder, output_file)
