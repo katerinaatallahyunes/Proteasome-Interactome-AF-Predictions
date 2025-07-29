@@ -121,8 +121,6 @@ combined_scores = merged_data[columns]
 # Save the combined scores to a new file named updated_model_statistics.csv
 combined_scores.to_csv('model_statistics.csv', index=False)
 
-
-'''
 # PAE plot -------------------
 
 output_name = 'predicted_alignment_error.png'
@@ -225,4 +223,4 @@ if "features.pkl" in glob.glob("*"):
     plt.savefig("MSA.png")
 
 print("Plotting completed successfully.")
-'''
+
