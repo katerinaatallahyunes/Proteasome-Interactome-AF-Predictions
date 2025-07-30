@@ -38,7 +38,7 @@ Generates the **pDockQ score** for each of the five models.
 python pdockq.py
 ```
 
-### 'plot_AF_all_unrelaxed.py'
+### `plot_AF_all_unrelaxed.py`
 Generates the **plddt** scores for each of the five models, along with the **PAE (Predicted Aligned Error)** heatmaps 
 
 **Usage:**
